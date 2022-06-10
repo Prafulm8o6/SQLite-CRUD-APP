@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/tvSName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+            <TextView
+                android:id="@+id/tvDOB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:drawableBottom="@drawable/ic_baseline_edit_24"
+            android:gravity="center"
+            android:shadowColor="@color/purple_200"></Button>
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_margin="5dp"
+            android:drawableBottom="@drawable/ic_baseline_delete_24"
+            android:gravity="center"
+            android:shadowColor="@color/purple_200"></Button>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
